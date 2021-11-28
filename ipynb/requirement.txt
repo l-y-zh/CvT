@@ -1,3 +1,5 @@
+Python 3.6/3.7/3.8/3.9 is ok.
+
 A third party package named paddlepaddle (supported by Baidu) is used for this ipynb file.
 
 To install paddlepaddle:
