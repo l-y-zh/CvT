@@ -21,7 +21,7 @@ To install paddlepaddle:
       
       
    For MacOS:
-     MacOS 10.x/11.x (64 bit) (cpu only) (M1 chip is supported)
+     MacOS 10.x/11.x or above (64 bit) (cpu only) (M1 chip is supported)
      conda version: 4.8.3+ (64 bit)
      
        conda install paddlepaddle==2.2.0
