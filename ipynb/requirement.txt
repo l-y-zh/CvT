@@ -1,0 +1,57 @@
+A third party package named paddlepaddle (supported by Baidu) is used for this ipynb file.
+
+To install paddlepaddle:
+  For Linux:
+    CentOS 7 / Ubuntu16.04 / Ubuntu18.04 (64 bit)
+    CUDA 10.1/10.2/11.2 is required for gpu version
+    conda version: 4.8.3+ (64 bit)
+    
+      conda install paddlepaddle==2.2.0
+      or
+      conda install paddlepaddle==2.2.0 --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/Paddle/
+      
+    **The latest version of paddlepaddle is recommanded.
+    
+    GPU Version:
+      conda install paddlepaddle-gpu==2.2.0 cudatoolkit=10.1  [cuDNN 7 is needed (cuDNN>=7.6.5, NCCL>=2.7 for multi-gpu)]
+      or
+      conda install paddlepaddle-gpu==2.2.0 cudatoolkit=10.2  [cuDNN 7 is needed (cuDNN>=7.6.5, NCCL>=2.7 for multi-gpu)]
+      or
+      conda install paddlepaddle-gpu==2.2.0 cudatoolkit=11.2  [cuDNN 8.1.1 is needed (NCCL>=2.7 for multi-gpu)]
+      
+      
+   For MacOS:
+     MacOS 10.x/11.x (64 bit) (cpu only) (M1 chip is supported)
+     conda version: 4.8.3+ (64 bit)
+     
+       conda install paddlepaddle==2.2.0
+       or
+       conda install paddlepaddle==2.2.0 --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/Paddle/
+       
+     **The latest version of paddlepaddle is recommanded.
+
+       
+   For Windows:
+     Windows 7/8/10 Professional Edition/Enterprise Edition (64bit)
+     CUDA 10.1/10.2/11.2 is required for gpu version (single gpu only)
+     conda version: 4.8.3+ (64 bit)
+       
+       conda install paddlepaddle==2.2.0
+       or
+       conda install paddlepaddle==2.2.0 --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/Paddle/
+      
+     **The latest version of paddlepaddle is recommanded.
+    
+     GPU Version:
+       conda install paddlepaddle-gpu==2.2.0 cudatoolkit=10.1  [cuDNN 7 is needed (cuDNN>=7.6.5, NCCL>=2.7 for multi-gpu)]
+       or
+       conda install paddlepaddle-gpu==2.2.0 cudatoolkit=10.2  [cuDNN 7 is needed (cuDNN>=7.6.5, NCCL>=2.7 for multi-gpu)]
+       or
+       conda install paddlepaddle-gpu==2.2.0 cudatoolkit=11.2  [cuDNN 8.1.1 is needed (NCCL>=2.7 for multi-gpu)]
+       
+   
+Validation the installation:
+  Type python/python3 to enter into the interpreter and then type: import paddle, then, paddle.utils.run_check().
+  If "PaddlePaddle is installed successfully!" contains in the result printed on the screen, the installation was success.
+    
+    
