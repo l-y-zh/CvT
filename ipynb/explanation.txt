@@ -1,4 +1,5 @@
-1. If warning message like '''DeprecationWarning: `should_run_async` will not call `transform_cell` automatically in the future.''' occurs, '''pip install --upgrade ipykernel''' will clear the case. Or, leave it alone, the program will still work.
+1. If warning message like '''DeprecationWarning: `should_run_async` will not call `transform_cell` automatically in the future.''' occurs, 
+'''pip install --upgrade ipykernel''' will clear the case. Or, leave it alone, the program will still work.
 
 
 2. Below is the model architecture and numbers of parameters in the case of input of a single-channel image with size 512*512.
@@ -357,5 +358,6 @@ Params size (MB): 74.93
 Estimated Total Size (MB): 1850.58
 ----------------------------------------------------------------------------
 
-It's a bit large to us, especially considering of training with a bigger epoch to get a higher accuracy on validation/testing set, and, unfortunately, we do not have a gpu (or multi-gpus) with certain corresponding performance to train and fine-tune it.
-(We originally planned to train this model on a covid19-detection data set with each image in shape of 1*512*512)
+It's a bit large to us, especially considering of training with a bigger epoch to get a higher accuracy on validation/testing set, 
+and, unfortunately, we do not have a gpu (or multi-gpus) with certain corresponding performance to train and fine-tune it.
+(We originally planned to train this model on a covid19-detection data set with each image in shape of 1*512*512.)
